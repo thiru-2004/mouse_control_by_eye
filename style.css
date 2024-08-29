@@ -1,0 +1,70 @@
+
+.box{
+    color: green;
+    background-color: rgb(8, 25, 25);
+    padding:50px;
+    display: inline-block;
+    border:1px solid;
+    border-color: rgb(11, 18, 22);
+    margin-top: 200px;
+    border-radius: 30px;
+    tex
+
+}
+.mail{
+    padding: 100px;
+    margin: 5px;
+    border-radius: 3px;
+    
+    
+   
+}
+.mail-field{
+    padding-top: 20px;
+    border:solid;
+    border-radius: 10px;
+    color: rgb(0, 83, 128);
+    text-align: top;
+   
+}
+
+body {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8NYnGDqrQm-gbf4fbXkaMBzmVLlf2rZdOLA&s');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-size: 100% 100%;
+}
+
+.pass{
+    padding-top: 20px;
+    
+
+
+    
+}
+.remember{
+    margin-top: 10px;
+}
+
+
+.pass-field{
+    padding-top: 20px ;
+    border:solid;
+    border-radius: 10px;
+    color: rgb(0, 83, 128);
+    
+}
+.log-field{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border:solid;
+    border-radius: 10px;
+    color: rgb(0, 83, 128);
+    text-align: top;
+   text-align: center;
+   margin-top: 10px;
+
+}

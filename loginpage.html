@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body >
+   
+<center>
+    <form action="post" name="form" onsubmit="return validated()">
+<div class="box">
+    
+        <h1>Login page</h1>
+        
+         <span class="mail" id="email">  
+        <input type="text" placeholder="enter any mail" class="mail-field"><br>
+         </span>
+         <div id="email_error">.fill the emial or phone</div>
+         <div class="pass" id="password">
+        <input type="password" placeholder="enter password" class="pass-field"><br>
+         </div>
+         <div id="password_error">.enter valid password</div>
+         <div class="remember">
+        <label><input type="checkbox">Remember Me</label>
+         </div>
+         <div class="forgot">
+        <a href="#">Forgot Password?</a><br>
+         </div>
+         <div class="submit">
+        <button type="submit" class="log-field">Login </button>
+         </div>
+         <div class="have">
+        <p> Don't have an account?<a href="#">Register</a></p>
+         </div>
+</div>
+    </form>
+
+   
+    </center>
+
+    
+  
+    <script src="valid.js"></script>
+       
+</body>
+</html>
